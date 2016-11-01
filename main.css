@@ -53,12 +53,14 @@ main img{
 .page-menu{
 	margin-top: 30px;
 	padding: 0px;
+	font-size: 0;
 }
 
 .page-menu div{
 	display: inline-block;
 	padding: 5px 10px 5px 10px;
-	border: 1px solid black;
+	border: 1px solid lightgrey;
+	font-size: 20px;
 }
 
 .page-menu div:nth-child(2){
@@ -68,6 +70,12 @@ main img{
 
 .job-list{
 	padding-top: 30px;
+	list-style-type: none;
+	padding: 0;
+}
+
+.job-list li{
+	padding: 10px 0px 5px 0px;
 }
 
 span{
